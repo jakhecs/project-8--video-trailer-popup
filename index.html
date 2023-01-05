@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-container">
-        <img src="https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg?auto=compress&cs=tinysrgb&w=600" alt="movie-image">
-        <h2>Story de CJ</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eaque dolorem porro ea, laudantium odio harum, illum doloribus sint nam amet facere veniam cum aperiam magni. Ut suscipit assumenda dolorem!</p>
-        <button class="btn">Regarder</button>
-    </div>
-    <div class="trailer-container">
-        <video src="./video.mp4" controls></video> 
-        <i class="fa-solid fa-xmark fa-2x"></i>
+    <div class="container">
+        <div class="container__main">
+            <img src="https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg?auto=compress&cs=tinysrgb&w=600" alt="movie-image">
+            <h1>Story de CJ</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eaque dolorem porro ea, laudantium odio harum, illum doloribus sint nam amet facere veniam cum aperiam magni. Ut suscipit assumenda dolorem!</p>
+            <button class="btn">Regarder</button>
+        </div>
+        <div class="container__trailer active">
+            <video src="./video.mp4" controls></video> 
+            <i class="fa-solid fa-xmark fa-2x close-icon"></i>
+        </div>
     </div>
 </body>
 <script src="index.js"></script>
